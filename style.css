@@ -146,3 +146,5 @@ margin: 1em 0 2em 0; /*lembrar do relógio*/
 .lista__links a:hover {
     color: var(--cor-botao);
 }
+
+@media screen and (max-width 768px)
