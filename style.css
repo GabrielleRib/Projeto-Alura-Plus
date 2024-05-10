@@ -147,4 +147,34 @@ margin: 1em 0 2em 0; /*lembrar do relógio*/
     color: var(--cor-botao);
 }
 
-@media screen and (max-width 768px)
+@media screen and (max-width 768px) {
+    .container{
+        display: block; /*deixa os elementos como bloco, não deixando se sobreporem*/
+        background-image: none;
+    }
+    
+    .container__imagem{
+        width: 50vw;/*ocupa 50% do tamanho da página indenpente do tamanho da tela*/
+    }
+    
+    .container__caixa{
+        margin: 2em 2em;
+    }
+    
+    .secundario{
+        margin: 0;
+        text-align: center; /*não alinha somente o texto, mas alinha um bloco como um todo*/
+    }
+    
+    .secundario__imagem{
+        width: 50vw;
+    }
+
+    .dispositivos__lista{
+        display: block; /*embloca em coluna*/
+    }
+
+    .rodape__lista{
+        display: block;
+    }
+}
